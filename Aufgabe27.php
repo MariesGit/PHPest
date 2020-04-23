@@ -26,7 +26,7 @@ $besucherzahl = fread ($handle, filesize ($dateinamen));
 fclose ($handle);
  
 $besucherzahl = $besucherzahl + 1;
-echo "<p>bisher waren <b>$besucherzahl</b> Besucher hier</p>";
+echo "<p>bisher waren  <b>$besucherzahl</b> Besucher hier</p>";
  
 // Schreiben des neuen Wertes
 $handle = fopen ("besucherzaehler.txt", "w");
